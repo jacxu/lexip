@@ -7,23 +7,9 @@ public class Mover : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        SpeedUpdate();
-    }
-
-    void Update(){
-        SpeedUpdate();
-    }
-
-    void SpeedUpdate()
-    {
         Rigidbody rb = GetComponent<Rigidbody>();
-        rb.velocity = transform.forward * speed;
-    }
-
-    public void SetSpeed(int _speed)
-    {
-        speed = _speed;
-    }
+        rb.velocity = transform.forward * speed; 
+	}
 	
 	
 }

@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Boundary
   - Enemy
+  - Red
+  - Blue
+  - ShieldBlue
+  - ShieldRed
+  - EnemyBoltR
+  - EnemyBoltB
   layers:
   - Default
   - TransparentFX

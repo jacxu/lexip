@@ -98,7 +98,7 @@ public class GameController : MonoBehaviour
         start = gameOver = restart = false;
         restartText.text = gameOverText.text = "";
         score  = 0;
-        levels = new List<string>() { "s.2.2", "s.3.3", "s.6.1", "boss" };
+        //levels = new List<string>() { "s.2.2", "s.3.3", "s.6.1", "boss" };
         // levels = new List<string>() { "s.1.1" };
         UpdateStats(0,0);
         DrawStart();
@@ -136,7 +136,7 @@ public class GameController : MonoBehaviour
         if (start)
         {
             DrawUI();
-            StartCoroutine(SpawnLevel());
+          //  StartCoroutine(SpawnLevel());
             start = false;
         }
     }
